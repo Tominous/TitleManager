@@ -62,7 +62,7 @@ class TitleManagerPlugin : JavaPlugin(), TitleManagerAPI by APIProvider {
         debug("Updating config from 1.5.13 to 2.0.0")
         updateConfig()
 
-        debug("Setting up player info database")
+        debug("Setting up player information database")
         setupDB()
 
         debug("Loading animations & scripts")
@@ -209,7 +209,7 @@ class TitleManagerPlugin : JavaPlugin(), TitleManagerAPI by APIProvider {
                     val index = AtomicInteger(0)
 
                     debug("Registering announcement: ${announcement.name}")
-                    debug("Announcement Info:")
+                    debug("Announcement Information:")
                     debug("Interval: $interval")
                     debug("Fade in: $fadeIn")
                     debug("Stay: $stay")
