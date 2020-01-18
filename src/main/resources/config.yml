@@ -33,13 +33,13 @@
 config-version: 5
 
 # Toggles debug mode, which prints additional information when the plugin does something.
-debug: false
+debug: true
 
 # Toggles whether or not all of the features of TitleManager will be toggled.
 using-config: true
 
 # Toggles whether or not all of the BungeeCord functionality will be toggled.
-using-bungeecord: false
+using-bungeecord: true
 
 # (Feature only works on 1.7-1.8 Protocol Hack)
 # Toggles whether or not 1.7 players will see actionbar messages when they're holding an item.
